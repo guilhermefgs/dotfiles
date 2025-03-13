@@ -202,5 +202,5 @@ assign [class="^firefox_firefox$" instance="^Navigator$"] $ws1
 
 for_window [class="Spotify"] move window to workspace $ws10
 
-# Autostart apps as you like
+# Change mouse primary button to right side, TODO not sure what --no-startup-id does
 exec --no-startup-id xmodmap -e "pointer = 3 2 1"
